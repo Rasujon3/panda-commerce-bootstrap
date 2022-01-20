@@ -17,7 +17,7 @@
     <!-- Header start -->
     <header>
       <div class="container">
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
           <div class="container">
             <a class="navbar-brand" href="#">
               <img src="images/logo.png" alt="" />
@@ -42,13 +42,13 @@
                   >
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">Shoes</a>
+                  <a class="nav-link" href="#shoe">Shoes</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">Backpack</a>
+                  <a class="nav-link" href="#backpack">Backpack</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">Subscribe</a>
+                  <a class="nav-link" href="#subscribe">Subscribe</a>
                 </li>
               </ul>
             </div>
@@ -190,7 +190,7 @@
 
       <!-- Shoes Section -->
 
-      <section class="container my-5">
+      <section id="shoe" class="container my-5">
         <h2>Shoes</h2>
         <div>
           <div class="row row-cols-1 row-cols-md-3 g-4">
@@ -260,7 +260,7 @@
 
       <!-- Backpack section -->
 
-      <section class="container my-5">
+      <section id="backpack" class="container my-5">
         <h2>Backpack</h2>
         <div>
           <div class="row row-cols-1 row-cols-md-3 g-4">
@@ -327,9 +327,32 @@
           </div>
         </div>
       </section>
+
+      <!-- subscribe Section -->
+
+      <section
+        id="subscribe"
+        style="height: 400px"
+        class="container bg-info d-flex justify-content-center align-items-center rounded-3"
+      >
+        <div>
+          <h1>LET'S STAY IN TOUCH</h1>
+          <p class="text-muted">Get updates on sales, specials and more</p>
+          <input type="text" placeholder="Your Email" />
+          <br />
+          <button class="btn btn-warning mt-1">SUBMIT</button>
+        </div>
+      </section>
     </main>
 
-    <footer></footer>
+    <footer class="container mt-5">
+      <p class="text-center">
+        <small
+          >&copy;2020. Panda Commerce. All rights reserved. Sofia,
+          Bulgaria.</small
+        >
+      </p>
+    </footer>
 
     <!-- bootstrap script -->
     <script
